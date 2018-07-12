@@ -2,10 +2,10 @@ package:
     type:           project
     name:           hipanel
     title:          HiPanel
-    headline:       Next generation control panel for
+    headline:       Next generation billig and control panel
     keywords:       hipanel
     description:    |
-        HiPanel is next generation control panel for hosting, domains and more.
+        HiPanel is next generation billing and control panel for hosting, domains and more.
 
         See [http://hipanel.com](http://hipanel.com).
 

@@ -1,11 +1,11 @@
 {
-    "name": "hipanel/hipanel",
+    "name": "hiqdev/hipanel",
     "type": "project",
     "description": "HiPanel",
     "keywords": [
         "hipanel"
     ],
-    "homepage": "https://github.com/hipanel/hipanel",
+    "homepage": "https://github.com/hiqdev/hipanel",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
@@ -41,12 +41,13 @@
         }
     ],
     "require-dev": {
-        "hiqdev/hidev-php": "<2.0 || dev-master",
-        "hiqdev/hidev-hiqdev": "<2.0 || dev-master"
+        "hiqdev/hidev-php": "*@dev",
+        "hiqdev/hidev-hiqdev": "*@dev"
     },
     "autoload": {
         "psr-4": {
             "hipanel\\hipanel\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
